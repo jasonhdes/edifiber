@@ -9,7 +9,7 @@ body {
 }
 header {
     height: 40%;
-    background-image: url(../imagens/fundoedifiber.jpg);
+    background-image: url(../_img/fundoedifiber.jpg);
     background-size: 100%;
     background-position: bottom;
 }
@@ -26,12 +26,13 @@ header {
     margin: 1%;
     margin-left: 10%;
 }
-.h1 {    
+h1 {    
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     text-align: center;
+    
 }
-.h2 {
+h2 {
     font-family: 'PT Sans', sans-serif;
     text-align: center;
     clear: both;
@@ -53,66 +54,40 @@ nav {
 }
 section {
     padding: 1%;
-    text-align: center;
 }
-h1, h3 {
-    text-align: center;
-}
-#body a {
-    background-color: #000;
-    padding: 0.5%;
-    color: #fff;
-    float: right;
-    clear: both;
-    margin-right: 5%;
-}
-#body a:hover {
-    background-color: #558303;
-    padding: 0.5%;
-    text-decoration: none;
-    color: #fff;
-}
-#p p {
-    text-align: justify;
-    width: 80%;
-    margin: 0 auto;
-}
-.pdts {
-    width: 75%;
-    padding: 1%;
-    text-align: justify;
-    margin: 0 auto;
-    margin-top: 2%;
-    clear: both;
-    position: relative;
-    border-top: solid 1px;
-}
-.conteudo {
-    float: right;
-}
-.conteudo img {
+.item img {
     float: left;
-    width: 25%;
-    margin-right: 1%;
+    clear: bottom;
 }
-.conteudo p, .conteudo ul {
-    text-align: justify;
-    padding: 1%;
+.item {
+    float: right;
+    height: 50%;
 }
-.conteudo ul {
-    padding-left: 30%;
+.item h3, .item ul, .item ol {
+    text-align: center;
 }
-.bts {
-    clear: both;
-    text-align: right;
-    width: 100%;
-    display: inline;
+ol {
+    list-style: none;
+}
+.item .button {
+    float: bottom;
+    float: right;
+}
+.button, .button a {
+    background-color: #558308;
+    color: white;
+}
+.button:hover, .button a:hover {
+    background-color: #385303;
+    color: white;
+    text-decoration: none;
 }
 footer {
-    width: 100%;
-    background-color: #000;
-    color: #fff;
+    background-color: black;
+    color: white;
+    height: 50px;
     text-align: center;
+    font-size: 75%;
 }
 footer img {
     width: 30px;
@@ -121,5 +96,9 @@ footer img {
     margin: 5px;
 }
 footer a {
-    color: #fff;
+    color: white;
+}
+#active {
+    background-color: #558308;
+    color: white;
 }

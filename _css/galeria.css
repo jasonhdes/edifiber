@@ -7,12 +7,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
 }
-header {
-    height: 40%;
-    background-image: url(../imagens/fundoedifiber.jpg);
-    background-size: 100%;
-    background-position: bottom;
-}
 #nome {
     background-color: #558308;
     color: white;
@@ -30,7 +24,6 @@ header {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     text-align: center;
-    
 }
 .h2 {
     font-family: 'PT Sans', sans-serif;
@@ -54,32 +47,22 @@ nav {
 }
 section {
     padding: 1%;
+}
+h1 {
     text-align: center;
 }
-#contato {
-    width: 20%;
-    float: left;
-    text-align: left;
+body section {
+    background-color: #d9d9d9;
 }
-a {
-    color: black;
+
+#gallery {
+    margin-left: auto;
+    margin-right: auto;
 }
-form {
-    width: 65%;
-    float: right;
-    text-align: left;
-}
-form div {
-    width: 100%;
-    clear: both;
-}
-.btn-primary {
-    background-color: #000;
-    border-color: #000;
-}
-.btn-primary:hover {
-    background-color: #558308;
-    border-color: #558308;
+body section a img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2px;
 }
 footer {
     background-color: black;
@@ -87,6 +70,7 @@ footer {
     height: 50px;
     text-align: center;
     font-size: 75%;
+    clear: both;
 }
 footer img {
     width: 30px;
@@ -96,4 +80,14 @@ footer img {
 }
 footer a {
     color: white;
+}
+#active {
+    background-color: #558308;
+    color: white;
+}
+#22 {
+    height: 40%;
+    background-image: url(../_img/fundoedifiber.jpg);
+    background-size: 100%;
+    background-position: bottom;
 }

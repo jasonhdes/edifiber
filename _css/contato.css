@@ -9,7 +9,7 @@ body {
 }
 header {
     height: 40%;
-    background-image: url(../imagens/fundoedifiber.jpg);
+    background-image: url(../_img/fundoedifiber.jpg);
     background-size: 100%;
     background-position: bottom;
 }
@@ -41,28 +41,45 @@ header {
 nav {
     width: 100%;
 }
+#menu {
+    background-color: #000;
+}
+.navbar {
+    border-color: #d9d9d9;
+    border-left-color: #000;
+    border-right-color: #000;
+}
+.navbar-default {
+    color: white;
+}
 section {
-    padding: 1%;   
-}
-.item {
-    float: right;
-    height: 50%;
-    background-color: #e3e3e3;
-    padding-right: 1%;
-    
-}
-.item img {
-    float: left;
-    clear: bottom;
-    margin: 2%;
-}
-.item h1 {
+    padding: 1%;
     text-align: center;
-    font-weight: 700;
+}
+#contato {
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+a {
+    color: black;
+}
+form {
+    width: 65%;
+    float: right;
+    text-align: left;
+}
+form div {
+    width: 100%;
     clear: both;
 }
-.item p {
-    text-align: justify;
+.btn-primary {
+    background-color: #000;
+    border-color: #000;
+}
+.btn-primary:hover {
+    background-color: #558308;
+    border-color: #558308;
 }
 footer {
     background-color: black;
@@ -78,9 +95,5 @@ footer img {
     margin: 5px;
 }
 footer a {
-    color: white;
-}
-#active {
-    background-color: #558308;
     color: white;
 }

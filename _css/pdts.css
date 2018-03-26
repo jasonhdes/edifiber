@@ -9,7 +9,7 @@ body {
 }
 header {
     height: 40%;
-    background-image: url(../imagens/fundoedifiber.jpg);
+    background-image: url(../_img/fundoedifiber.jpg);
     background-size: 100%;
     background-position: bottom;
 }
@@ -53,30 +53,69 @@ nav {
 }
 section {
     padding: 1%;
-}
-h1 {
     text-align: center;
 }
-body section {
-    background-color: #d9d9d9;
+h1, h3 {
+    text-align: center;
 }
-
-#gallery {
-    margin-left: auto;
-    margin-right: auto;
+#body a {
+    background-color: #000;
+    padding: 0.5%;
+    color: #fff;
+    float: right;
+    clear: both;
+    margin-right: 5%;
 }
-body section a img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 2px;
+section a {
+    border-radius: 5px;
+}
+#body a:hover {
+    background-color: #558303;
+    padding: 0.5%;
+    text-decoration: none;
+    color: #fff;
+}
+#p p {
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}
+.pdts {
+    width: 75%;
+    padding: 1%;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 2%;
+    clear: both;
+    position: relative;
+    border-top: solid 1px;
+}
+.conteudo {
+    float: right;
+}
+.conteudo img {
+    float: left;
+    width: 25%;
+    margin-right: 1%;
+}
+.conteudo p, .conteudo ul {
+    text-align: justify;
+    padding: 1%;
+}
+.conteudo ul {
+    padding-left: 30%;
+}
+.bts {
+    clear: both;
+    text-align: right;
+    width: 100%;
+    display: inline;
 }
 footer {
-    background-color: black;
-    color: white;
-    height: 50px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
     text-align: center;
-    font-size: 75%;
-    clear: both;
 }
 footer img {
     width: 30px;
@@ -85,9 +124,5 @@ footer img {
     margin: 5px;
 }
 footer a {
-    color: white;
-}
-#active {
-    background-color: #558308;
-    color: white;
+    color: #fff;
 }

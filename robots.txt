@@ -1,0 +1,5 @@
+user-agent: *
+Disallow: /_bs/
+Disallow: /_css/
+Disallow: /_js/
+Disallow: /_img/

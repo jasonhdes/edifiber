@@ -9,7 +9,7 @@ body {
 }
 header {
     height: 40%;
-    background-image: url(../imagens/fundoedifiber.jpg);
+    background-image: url(../_img/fundoedifiber.jpg);
     background-size: 100%;
     background-position: bottom;
 }
@@ -26,13 +26,13 @@ header {
     margin: 1%;
     margin-left: 10%;
 }
-h1 {    
+.h1 {    
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     text-align: center;
     
 }
-h2 {
+.h2 {
     font-family: 'PT Sans', sans-serif;
     text-align: center;
     clear: both;
@@ -41,46 +41,28 @@ h2 {
 nav {
     width: 100%;
 }
-#menu {
-    background-color: #000;
-}
-.navbar {
-    border-color: #d9d9d9;
-    border-left-color: #000;
-    border-right-color: #000;
-}
-.navbar-default {
-    color: white;
-}
 section {
-    padding: 1%;
-}
-.item img {
-    float: left;
-    clear: bottom;
+    padding: 1%;   
 }
 .item {
     float: right;
     height: 50%;
+    background-color: #e3e3e3;
+    padding-right: 1%;
+    
 }
-.item h3, .item ul, .item ol {
+.item img {
+    float: left;
+    clear: bottom;
+    margin: 2%;
+}
+.item h1 {
     text-align: center;
+    font-weight: 700;
+    clear: both;
 }
-ol {
-    list-style: none;
-}
-.item .button {
-    float: bottom;
-    float: right;
-}
-.button, .button a {
-    background-color: #558308;
-    color: white;
-}
-.button:hover, .button a:hover {
-    background-color: #385303;
-    color: white;
-    text-decoration: none;
+.item p {
+    text-align: justify;
 }
 footer {
     background-color: black;
